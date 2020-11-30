@@ -1,0 +1,29 @@
+/*
+
+Add styles or override variables from the theme here.
+
+*/
+
+.navbar-brand {
+    font-family: 'Muli', sans-serif;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    height: 33px;
+    letter-spacing: -1px;
+    line-height: 33.6px;
+    text-size-adjust: 100%;
+    text-transform: capitalize;
+    text-align: middle;
+
+    .nav-link {
+        display: inline-block;
+        margin-right: -30px;
+    }
+
+    svg {
+        display: inline-block;
+        margin: 0 10px;
+        height: 30px;
+    }
+}
